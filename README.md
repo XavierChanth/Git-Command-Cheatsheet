@@ -6,10 +6,10 @@ Windows:
 > https://git-scm.com/  
 
 Linux:  
-> sudo apt install git  
+> $ sudo apt install git  
 
 Mac:  
-> git  
+> $ git  
 
 ## Create a Github Account  
 
@@ -28,42 +28,52 @@ Mac:
 - Git Bash (From installing on windows)  
 - Mac  
 
-mkdir <directory name>:  
-> make a new directory  
+Make a new directory:  
+> $ mkdir {directory name}  
 
-ls:  
-> list the files in the present working directory   
+List the files in the present working directory:  
+> $ ls  
 
-cd <directory name>:  
-> change the directory  
+Change the directory:  
+> $ cd {directory name}  
 
-pwd:  
-> list the present working directory  
+List the present working directory:  
+> $ pwd  
 
-touch <file name>:  
-> Create a file  
+Create a file:  
+> $ touch {file name}  
 
 ## Git Commands  
 
-git init:  
-> Initialize the git repository  
+Initialize the git repository:  
+> $ git init  
 
-git add <list of file names (. will add all files)>:  
-> Add a file to the staging area  
+Add a file to the staging area:  
+> $ git add {file names}  
 
-git commit -m "<your commit message>":  
-> Commit these files  
+( . will add all files with a change)  
+(seperate multiple files with spaces)  
 
-git clone <repository link>:  
-> Clone a repository to the present working directory  
+Commit these files:  
+> $ git commit -m "{your commit message}":  
 
-git status:  
-> show the current status of the repository  
+Clone a repository to the present working directory:  
+> $ git clone {repository link}  
 
+Show the current status of the repository:  
+> $ git status  
 
 ## Git Config  
 
 git config --global user.name "YOUR GITHUB USERNAME"  
 git config --global user.email "GITHUB EMAIL"  
-git config --global credential.helper cache  
-> The above can be one of store, none or cache.  
+git config --global credential.helper {$}  
+> The "$" above can be one of store or cache.  
+> By default it will not cache or store the password.  
+
+## Extras  
+
+For working in teams learn:  
+
+- git checkout command  
+- github branches  
